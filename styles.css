@@ -9,7 +9,7 @@ DARK BLUE: #1D3557
 */
 
 body {
-    /*margin: 20px;*/
+    margin: 0px;
     /*text-align: center;
     
     background-color: #f5c9b5;
@@ -27,7 +27,7 @@ img {
     align-items: center;
     min-height:100vh;
     justify-content: center;
-
+    padding: 10px;
     background-image: url("images/valley.avif");
     background-attachment: fixed;
     background-size: cover;
@@ -178,4 +178,7 @@ img {
     border: 1px solid red;
     /*transform: rotate(90deg);*/
     transform: rotate3d(1, 1, 1, 45deg);
+}
+.guide{
+    padding: 10px;
 }
